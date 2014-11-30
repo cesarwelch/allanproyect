@@ -23,6 +23,10 @@ class element
     Setname(asd.Getname());
     }
 
+    bool operator==(const Fraction& lhs, const Fraction& rhs) {
+    return lhs.num() == rhs.num() && lhs.den() == rhs.den();
+    }
+
 
     protected:
     private:

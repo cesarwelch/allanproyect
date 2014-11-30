@@ -1,18 +1,18 @@
 # depslib dependency file v1.0
-1417318064 source:c:\users\cesar\documents\github\allanproyect\allanp\src\element.cpp
+1417319849 source:c:\users\cesar\documents\github\allanproyect\allanp\src\element.cpp
 	"element.h"
 
 1417319970 c:\users\cesar\documents\github\allanproyect\allanp\include\element.h
 	<string>
 	<iostream>
 
-1417317757 source:c:\users\cesar\documents\github\allanproyect\allanp\main.cpp
+1417320824 source:c:\users\cesar\documents\github\allanproyect\allanp\main.cpp
 	<iostream>
-	<cstring>
+	<string>
 	"element.h"
 	"combination.h"
 
-1417319829 c:\users\cesar\documents\github\allanproyect\allanp\include\combination.h
+1417320899 c:\users\cesar\documents\github\allanproyect\allanp\include\combination.h
 	<cstring>
 	"element.h"
 

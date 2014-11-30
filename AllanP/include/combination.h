@@ -6,8 +6,14 @@
 class combination
 {
     public:
+
+        element elem1;
+        element elem2;
+        element elemr;
+        int score;
+        int id;
         combination();
-        combination(element el1, element el2, element el3, int sc, int idd ){elem1 = el1; };
+        combination(element el1, element el2, element el3, int sc, int idd ){elem1 = el1; elem2 =el2; elemr = el3; sc =score; idd=id;};
         virtual ~combination();
         element Getelem1() { return elem1; }
         void Setelem1(element val) { elem1 = val; }
@@ -21,11 +27,7 @@ class combination
         void Setid(int val) { id = val; }
     protected:
     private:
-        element elem1;
-        element elem2;
-        element elemr;
-        int score;
-        int id;
+
 };
 
 #endif // COMBINATION_H

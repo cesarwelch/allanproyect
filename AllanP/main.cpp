@@ -16,7 +16,9 @@ int main()
     element elem1(id1,nom1);
     element elem2(id2,nom2);
     element elem3(id3,nom3);
-    combination comb();
-    cout << "Hello world!" << endl;
+    combination comb(elem1,elem2, elem3, 10, 3);
+
+    cout<<comb.elemr.Getid();
+
     return 0;
 }
